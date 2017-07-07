@@ -1,0 +1,23 @@
+{
+  "name": "whats-up-tonight",
+  "version": "0.0.1",
+  "description": "Whats up tonight in the clubs and how about the line (Berlin)",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "stylus source/stylesheets/index.styl -o static/css",
+    "watch-css": "stylus -w source/stylesheets/index.styl -o static/css",
+    "clean": "rm -rf static/css && mkdir -p static/css",
+    "build": "npm run clean && npm run build-css",
+    "watch": "npm run clean && npm run watch-css && nodemon server -e js,jade",
+    "start": "node server"
+  },
+  "author": "Giuseppe Aina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.9.2",
+    "stylus": "^0.54.5"
+  }
+}
