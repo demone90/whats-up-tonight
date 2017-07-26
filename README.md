@@ -7,3 +7,6 @@ Application can:
 - One is able to insert his/her writing time based on his/her duration idea. One can only insert the writing time only if he/she is going to start
 the writing in a specific range of time (10 mins for example)
  - One is not able to insert the writing time more than 2 at an hour
+
+Technical aspects:
+- API whatsup2night.com/api/
