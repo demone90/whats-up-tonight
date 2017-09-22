@@ -1,9 +1,8 @@
 # whats-up-tonight
 Application can: 
 
-- Retrieve relevant documents for a specific book (would start with the masterpiece Harry Potter)
-- Each relevant document is clickable (each document has image and title at least)
-- Once a relevant document is clicked, its information are shown (who will write the document tonight, where and if the writers have to wait before starting writing)
-- One is able to insert his/her writing time based on his/her duration idea. One can only insert the writing time only if he/she is going to start
-the writing in a specific range of time (10 mins for example)
- - One is not able to insert the writing time more than 2 at an hour
+- Retrieve relevant events for a specific city (would start with the Berlin <3 of couuuurse)
+- Each relevant club is clickable (each club has image and event name at least)
+- Once a relevant club is clicked, its information are shown (who will play the at that night, where and if people have to wait before getting in)
+- One is able to insert his/her waiting time based on his/her location. One can only insert the line information if he/she is located in a certain radius based on the club into account
+ - One is not able to insert the line waiting time more than twice every hour
